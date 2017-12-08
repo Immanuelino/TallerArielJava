@@ -7,7 +7,7 @@ package medioTermino;
 
 /**
  *
- * @author personal
+ * @author administrador1
  */
 public class Dictionary {
     

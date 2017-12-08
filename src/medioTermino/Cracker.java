@@ -5,36 +5,10 @@
  */
 package medioTermino;
 
-
 /**
  *
- * @author personal
+ * @author administrador1
  */
-public class Cracker extends PasswordCracker {
-
+public class Cracker {
     
-
-    @Override
-    public void setHost(String host) {
-        this.host = host;
-        System.out.println("El host es: " + host);
-    }
-
-    @Override
-    public void setDictionary(Dictionary dictionary) {
-        this.dictionary = dictionary;
-    }
-
-    @Override
-    public void setIp(String ip) {
-        this.ip = ip;
-        System.out.println("El ip es: " + ip);
-    }
-
-    @Override
-    public String crackPWD() {
-        return "password:"; 
-    }
-    
-
 }

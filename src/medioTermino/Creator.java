@@ -5,23 +5,10 @@
  */
 package medioTermino;
 
-
 /**
  *
- * @author personal
+ * @author administrador1
  */
-public abstract class Creator {
-    
-    public abstract void create(String typeCracker, Dictionary dictionary, String typeHost, String typeIp);
-    public  PasswordCracker factoryMethod(String typeCracker, Dictionary dictionary, String typeHost, String typeIp)
-    {        
-        create(typeCracker, dictionary, typeHost, typeIp);
-        return cracker;
-    }
-    protected PasswordCracker cracker;
-
-    
-
+public class Creator {
     
 }
-

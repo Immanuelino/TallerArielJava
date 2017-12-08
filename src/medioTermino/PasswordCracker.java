@@ -7,18 +7,8 @@ package medioTermino;
 
 /**
  *
- * @author personal
+ * @author administrador1
  */
-public abstract class PasswordCracker {
-    protected String host;
-    protected String ip;
-    protected Dictionary dictionary;
-    
-    public abstract void setHost(String host);
-    public abstract void setDictionary(Dictionary dictionary);
-    public abstract void setIp(String ip);
-    public abstract String crackPWD();
-    
-    
+public class PasswordCracker {
     
 }
